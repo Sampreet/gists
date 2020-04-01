@@ -2,7 +2,7 @@
 
 > Reading from and writing into files using the Octave environment.
 
-[Getting Started with GNU Octave](https://github.com/Sampreet/tutorials/blob/master/gists/octave/octave-getting-started.md)
+← [Getting Started with GNU Octave](https://github.com/Sampreet/gists/blob/master/languages/octave/octave-getting-started.md)
 
 ## Workspace
 
