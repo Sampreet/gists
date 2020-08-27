@@ -1,3 +1,7 @@
 # GISTS
 
-> A group of tutorials and useful syntax for some commonly used languages, applications and automated tasks.
+> A group of tutorials and useful snippets for programming languages, application development and automation.
+
+## Tutorials
+
+All tutorials are available inside the ```tutorials``` folder, which contains individual sections for ```languages``` and ```development``` containing the tutorial files.
