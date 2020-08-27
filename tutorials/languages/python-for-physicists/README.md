@@ -9,4 +9,4 @@ This tutorial series gradually traverses from basic to advanced topics of Python
 ID | Module | Topic | Tutorial | Notebook |
 --- |--- | --- | --- | --- |
 M01 | Getting Started | | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/) | |
-M01T01 | | Setting Up Python | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t00-setting-up-python.md) | |
+M01T01 | | Setting Up Python | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t01-setting-up-python.md) | |
