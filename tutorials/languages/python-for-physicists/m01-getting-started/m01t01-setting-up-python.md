@@ -1,6 +1,6 @@
 # Setting Up Python
 
-> Installing Python via the Anaconda distribution and configuring Visual Studio Code to run Python scripts and Jupyter notebooks.
+> A water boa for a python!
 
 Two primary sources for installation of Python packages are the [Python's official distribution](https://www.python.org) and the [Anaconda distribution](https://www.anaconda.com/). Each of them use their own package installers (pip and conda respectively) to install and update packages as well as create virtual environments to support multiple versions of Python in the same machine.
 
@@ -26,7 +26,7 @@ Download the generic command line installer (```.sh```) for the latest version o
 bash path/to/file.sh
 ```
 
-***Note: Linux usually comes with official Python distributions accessible through ```python3``` for version 3.x and ```python``` for version 2.x.***
+***Note: Linux usually comes with official Python distributions accessible through ```python3``` for version 3.x and ```python``` for version 2.x. Installing and initializing conda will override the default ```python``` command in the terminal with Anaconda's version of Python.***
 
 ## Initializing the conda Environment
 
@@ -55,7 +55,7 @@ The output should be of the form:
 Python 3.x.x
 ```
 
-## [Optional] Managing Anaconda Packages
+## Managing Anaconda Packages
 
 To install a package, use the following command by replacing ```package``` with its name and ```version``` with its requied version:
 
@@ -82,16 +82,3 @@ To remove a package, use the following command by replacing ```package``` with i
 ```bash
 conda remove package
 ```
-
-## [Optional] Installing Visual Studio Code
-
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/Microsoft/vscode?style=flat-square)](https://github.com/microsoft/vscode)
-
-*Visual Studio Code* (VSCode) is an open-source, highly-customizable and versatile source-code editor developed by Microsoft which supports debugging, version control, syntax highlighting, intelligent code completion, snippets, and code refactoring. Download the appropriate setup file for your operating system (Windows/Linux/MacOSX) from the [official page](https://code.visualstudio.com/download) and install. Easy!
-
-## [Optional] Installing Microsoft's Python Extension of VSCode
-
-[![GitHub package.json version](https://img.shields.io/visual-studio-marketplace/v/ms-python.python?style=flat-square)](https://github.com/microsoft/vscode)
-[![GitHub package.json version](https://img.shields.io/visual-studio-marketplace/i/ms-python.python?style=flat-square)](https://github.com/microsoft/vscode)
-
-*Python* extension for VSCode by Microsoft provides a rich support for the language including a whole bundle of features for easy execution of Python scripts. Install the latest version of this extension from VSCode's Marketplace, the last icon on VSCode's *activity bar* (left edge). It usaully stays at the top with over 20M installations.
