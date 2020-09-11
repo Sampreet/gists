@@ -8,17 +8,23 @@ This tutorial series gradually traverses from basic to advanced topics of Python
 
 ## [Module 01 - Getting Started](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/)
 
-This module primarily focuses on getting acquainted to Python's environment using Anaconda distribution and optionally using VSCode for editing and running scripts. 
+This module acquaints you to Python's environment using Anaconda distribution and optionally using VSCode for editing and running scripts. 
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
---- | --- | --- | --- |
-M01T01 | Setting Up Python | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t01-setting-up-python.md) | |
-M01T02 | The Python Interpreter | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t02-the-python-interpreter.md) | |
-M01T03 | The Spyder IDE | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t03-the-spyder-ide.md) | |
-M01T04 | Jupyter Notebooks | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t04-jupyter-notebooks.md) | |
-M01T05 | Python in VSCode | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t05-python-in-vscode.md) | |
+Topic ID | Topic Name | Tutorial | 
+--- | --- | --- |
+M01T01 | Setting Up Python | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t01-setting-up-python.md) |
+M01T02 | The Python Interpreter | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t02-the-python-interpreter.md) |
+M01T03 | The Spyder IDE | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t03-the-spyder-ide.md) |
+M01T04 | Jupyter Notebooks | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t04-jupyter-notebooks.md) |
+M01T05 | Python in VSCode | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t05-python-in-vscode.md) |
+
+### Key Takeaways
+
+* Installing and configuring Python.
+* Running Python scripts and IPython notebooks.
+* Using Visual Studio Code to run and debug.
 
 ## Module 02 - Fundamentals of Python
 
@@ -26,7 +32,7 @@ This module will cover the basic of programming following Python's syntax.
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
+Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M02T01 | Constants and Variables | | |
 M02T02 | Tuples and Lists | | |
@@ -43,7 +49,7 @@ This module will cover some of the best practices for python.
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
+Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M03T01 | Importing Modules | | |
 M03T02 | Objects and Classes | | |
@@ -57,7 +63,7 @@ This module will cover the various visualization libraries available for python.
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
+Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M04T01 | Matplotlib | | |
 M04T02 | Plotly | | |
@@ -69,7 +75,7 @@ This module will cover the various numerical libraries available for python.
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
+Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M05T01 | Numpy | | |
 M05T02 | SciPy | | |
@@ -81,7 +87,7 @@ This module will cover the basics of machine learning algorithms and their imple
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
+Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M06T01 | Bayesian Probability | | |
 M06T02 | Regression Analysis | | |
@@ -91,15 +97,15 @@ M06T05 | Dimensionality Reduction | | |
 M06T06 | Support Vector Machines | | |
 M06T07 | Quantum Machine Learning | | |
 
-## Module 07 - Deep Learning
+## [Module 07 - Deep Learning](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m07-deep-learning/)
 
-This module will cover neural networks and their applications in physical scenarios using TensorFlow.
+This module covers artificial neural networks and their applications in physical scenarios using TensorFlow.
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
+Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
-M07T01 | Neural Networks Basics | | |
+M07T01 | Neural Networks | | |
 M07T02 | TensorFlow and Keras | | |
 M07T03 | Principal Component Analysis | | |
 M07T04 | Feedforward Neural Networks | | |
@@ -108,14 +114,22 @@ M07T06 | Boltzmann Machines and Autoencoders | | |
 M07T07 | Reinforcement Learning | | |
 M07T08 | Quantum Generative Adversarial Networks | | |
 
-## Module 08 - Quantum Computation
+### Key Takeaways
 
-This module will cover applications of quantum computation using Qiskit.
+* Modelling neural networks.
+
+## [Module 08 - Quantum Computing](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/)
+
+This module will cover applications of quantum mechanics in computing using Qiskit.
 
 ### Contents
 
-ID | Name | Tutorial | Notebook | 
+Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
-M08T01 | CBits to QBits | | |
+M08T01 | CBits to QBits | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/m08t01-cbits-to-qbits.md) | |
 M08T02 | The Qiskit SDK | | |
+
+### Key Takeaways
+
+* Understanding and implementing qubits.
 
