@@ -26,7 +26,7 @@ M01T05 | Python in VSCode | [link](https://github.com/Sampreet/gists/blob/master
 * Running Python scripts and IPython notebooks.
 * Using Visual Studio Code to run and debug.
 
-## Module 02 - Fundamentals of Python
+## [Module 02 - Fundamentals of Python](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m02-fundamentals-of-python/)
 
 This module will cover the basic of programming following Python's syntax.
 
@@ -43,21 +43,7 @@ M02T06 | For and While Loops | | |
 M02T07 | List Comprehension | | |
 M02T08 | Functions and Lambda Expressions | | |
 
-## Module 03 - Best Practices
-
-This module will cover some of the best practices for python.
-
-### Contents
-
-Topic ID | Topic Name | Tutorial | Notebook | 
---- | --- | --- | --- |
-M03T01 | Importing Modules | | |
-M03T02 | Objects and Classes | | |
-M03T03 | Handling Scenarios | | |
-M03T04 | Logging Events | | |
-M04T05 | Parallelism | | |
-
-## Module 04 - Visualizing Data
+## [Module 03 - Visualizing Data](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m03-visualizing-data/)
 
 This module will cover the various visualization libraries available for python.
 
@@ -65,11 +51,11 @@ This module will cover the various visualization libraries available for python.
 
 Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
-M04T01 | Matplotlib | | |
-M04T02 | Plotly | | |
-M04T03 | Seaborn | | |
+M03T01 | Matplotlib | | |
+M03T02 | Plotly | | |
+M03T03 | Seaborn | | |
 
-## Module 04 - Scientific Computing
+## [Module 04 - Scientific Computing](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m04-scientific-computing/)
 
 This module will cover the various numerical libraries available for python.
 
@@ -77,11 +63,25 @@ This module will cover the various numerical libraries available for python.
 
 Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
-M05T01 | Numpy | | |
-M05T02 | SciPy | | |
-M05T03 | Pandas | | |
+M04T01 | Numpy | | |
+M04T02 | SciPy | | |
+M04T03 | Pandas | | |
 
-## Module 06 - Machine Learning
+## [Module 05 - Best Practices](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m05-best-practices/)
+
+This module will cover some of the best practices for python.
+
+### Contents
+
+Topic ID | Topic Name | Tutorial | Notebook | 
+--- | --- | --- | --- |
+M05T01 | Importing Modules | | |
+M05T02 | Objects and Classes | | |
+M05T03 | Handling Scenarios | | |
+M05T04 | Logging Events | | |
+M05T05 | Parallelism | | |
+
+## [Module 06 - Machine Learning](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m06-machine-learning/)
 
 This module will cover the basics of machine learning algorithms and their implementation using Scikit-learn.
 

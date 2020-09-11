@@ -14,19 +14,19 @@ Originally aimed for data science and machine learning, the *Anaconda Individual
 
 ### On Windows/MacOS
 
-Download the graphical installer (```.exe```/```.pkg```) for the latest version of Anaconda Python from the [individual product download page](https://www.anaconda.com/products/individual) for the specific version of your operating system and run the installer.
+Download the graphical installer (`.exe`/`.pkg`) for the latest version of Anaconda Python from the [individual product download page](https://www.anaconda.com/products/individual) for the specific version of your operating system and run the installer.
 
 ***Note: If Anaconda is the only distribution of Python in your system, make sure to check both "Add Anaconda to the system PATH environment variable" and "Register Anaconda as the system Python 3.x".***
 
 ### On Linux
 
-Download the generic command line installer (```.sh```) for the latest version of Anaconda Python from the [individual product download page](https://www.anaconda.com/products/individual) and install it by running the following command in the terminal, replacing ```path/to/file``` with the complete path to the directory of the downloaded installer along with the file name:
+Download the generic command line installer (`.sh`) for the latest version of Anaconda Python from the [individual product download page](https://www.anaconda.com/products/individual) and install it by running the following command in the terminal, replacing `path/to/file` with the complete path to the directory of the downloaded installer along with the file name:
 
 ```bash
 bash path/to/file.sh
 ```
 
-***Note: Linux usually comes with official Python distributions accessible through ```python3``` for version 3.x and ```python``` for version 2.x. Installing and initializing conda will override the default ```python``` command in the terminal with Anaconda's version of Python.***
+***Note: Linux usually comes with official Python distributions accessible through `python3` for version 3.x and `python` for version 2.x. Installing and initializing conda will override the default `python` command in the terminal with Anaconda's version of Python.***
 
 ## Initializing the conda Environment
 
@@ -57,7 +57,7 @@ Python 3.x.x
 
 ## Managing Anaconda Packages
 
-To install a package, use the following command by replacing ```package``` with its name and ```version``` with its requied version:
+To install a package, use the following command by replacing `package` with its name and `version` with its requied version:
 
 ```bash
 conda install package=version
@@ -77,7 +77,7 @@ To update all packages, use:
 conda update --all
 ```
 
-To remove a package, use the following command by replacing ```package``` with its name:
+To remove a package, use the following command by replacing `package` with its name:
 
 ```bash
 conda remove package
