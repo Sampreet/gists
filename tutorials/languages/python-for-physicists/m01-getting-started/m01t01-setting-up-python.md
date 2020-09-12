@@ -2,7 +2,8 @@
 
 > A water boa for a python!
 
-Two primary sources for installation of Python packages are the [Python's official distribution](https://www.python.org) and the [Anaconda distribution](https://www.anaconda.com/). Each of them use their own package installers (pip and conda respectively) to install and update packages as well as create virtual environments to support multiple versions of Python in the same machine.
+Two primary sources for installation of Python packages are the [Python's official distribution](https://www.python.org) and the [Anaconda distribution](https://www.anaconda.com/). 
+Each of them use their own package installers (pip and conda respectively) to install and update packages as well as create virtual environments to support multiple versions of Python in the same machine.
 
 Owing to some advantages (package dependency analysis and math kernel optimization libraries) of the Anaconda distribution the over the official Python one, by default, we will be using the Anaconda distribution unless specifically mentioned otherwise.
 
@@ -10,7 +11,9 @@ Owing to some advantages (package dependency analysis and math kernel optimizati
 ![Conda](https://img.shields.io/conda/vn/conda-forge/conda?label=version&style=flat-square)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/conda?style=flat-square)
 
-Originally aimed for data science and machine learning, the *Anaconda Individual Edition* is a free distribution for Python and R programming languages constituting of a large number of packages for both. The package manager *conda* analyzes the installed packages and verifies the dependencies making the installation breakdown-proof for existing projects. A light-weight, minimal edition of the distribution is also available under the name [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+Originally aimed for data science and machine learning, the *Anaconda Individual Edition* is a free distribution for Python and R programming languages constituting of a large number of packages for both. 
+The package manager *conda* analyzes the installed packages and verifies the dependencies making the installation breakdown-proof for existing projects. 
+A light-weight, minimal edition of the distribution is also available under the name [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
 ### On Windows/MacOS
 
@@ -26,11 +29,13 @@ Download the generic command line installer (`.sh`) for the latest version of An
 bash path/to/file.sh
 ```
 
-***Note: Linux usually comes with official Python distributions accessible through `python3` for version 3.x and `python` for version 2.x. Installing and initializing conda will override the default `python` command in the terminal with Anaconda's version of Python.***
+***Note: Linux usually comes with official Python distributions accessible through `python3` for version 3.x and `python` for version 2.x.*** 
+***Installing and initializing conda will override the default `python` command in the terminal with Anaconda's version of Python.***
 
 ## Initializing the conda Environment
 
-*conda-forge* is a community-driven packaging system for conda dedicated for the scientific computing community. It provides a wide collection of recipies, build infrastructure and distributions. To add it as the first-hit channel, open the Anaconda command prompt in the elevated (administrator) mode and execute the following lines:
+*conda-forge* is a community-driven packaging system for conda dedicated for the scientific computing community. It provides a wide collection of recipies, build infrastructure and distributions. 
+To add it as the first-hit channel, open the Anaconda command prompt in the elevated (administrator) mode and execute the following lines:
 
 ```bash
 conda config --add channels conda-forge
@@ -82,3 +87,27 @@ To remove a package, use the following command by replacing `package` with its n
 ```bash
 conda remove package
 ```
+
+## Creating Python Environments
+
+It is useful to create individual virtual environments to run different versions of Python depending on the requirements of specific packages. 
+And the `conda` package provides an easy way to manage such virtual environments.
+To create a new environment (say, by the name `py37`) supporting a particular version of Python (say Python 3.7.x), use the following command:
+
+```
+conda create --name py37 python=3.7
+```
+
+Once the creation is complete, you can activate the environment by:
+
+```
+conda activate py37
+```
+
+To remove a created environment, use the following command:
+
+```
+conda remove --name py37
+```
+
+***[Conda's official cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) collects a comprehensive list of commands available via the package.***

@@ -2,19 +2,21 @@
 
 > A complete tutorial series for programming in Python specifically aimed to suffice simulation and visualization requirements for physicists.
 
-*Python* is an interpreted, high-level, general-purpose language supporting object-oriented programming with more emphasis on code-readibility and extensibility. It has a wide range of applications ranging from scientific computing libraries like TensorFlow, to stand-alone applications like Blender.
+*Python* is an interpreted, high-level, general-purpose language supporting object-oriented programming with more emphasis on code-readibility and extensibility. 
+It has a wide range of applications ranging from scientific computing libraries like TensorFlow, to stand-alone applications like Blender.
 
-This tutorial series gradually traverses from basic to advanced topics of Python for scientific computing purposes pertaining to the area of physical sciences. The tutorials and their corresponding notebooks are clubbed into different modules based on the topics covered.
+This tutorial series gradually traverses from basic to advanced topics of Python for scientific computing purposes pertaining to the area of physical sciences. 
+The tutorials and their corresponding notebooks are clubbed into different modules based on the topics covered.
 
-## [Module 01 - Getting Started](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/)
+## [Module 01 - Getting Started](./m01-getting-started/)
 
-This module acquaints you to Python's environment using Anaconda distribution and optionally using VSCode for editing and running scripts. 
+This module acquaints you to Python's environment using the Anaconda distribution and introduces VSCode for editing and executing Python projects. 
 
 ### Contents
 
 Topic ID | Topic Name | Tutorial | 
 --- | --- | --- |
-M01T01 | Setting Up Python | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t01-setting-up-python.md) |
+M01T01 | Setting Up Python | [link](./m01-getting-started/m01t01-setting-up-python.md) |
 M01T02 | The Python Interpreter | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t02-the-python-interpreter.md) |
 M01T03 | The Spyder IDE | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t03-the-spyder-ide.md) |
 M01T04 | Jupyter Notebooks | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m01-getting-started/m01t04-jupyter-notebooks.md) |
@@ -28,7 +30,7 @@ M01T05 | Python in VSCode | [link](https://github.com/Sampreet/gists/blob/master
 
 ## [Module 02 - Fundamentals of Python](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m02-fundamentals-of-python/)
 
-This module will cover the basic of programming following Python's syntax.
+This module will cover the basics of programming following Python's syntax.
 
 ### Contents
 
@@ -45,7 +47,7 @@ M02T08 | Functions and Lambda Expressions | | |
 
 ## [Module 03 - Visualizing Data](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m03-visualizing-data/)
 
-This module will cover the various visualization libraries available for python.
+This module will cover the common visualization libraries available for Python.
 
 ### Contents
 
@@ -57,7 +59,7 @@ M03T03 | Seaborn | | |
 
 ## [Module 04 - Scientific Computing](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m04-scientific-computing/)
 
-This module will cover the various numerical libraries available for python.
+This module will cover Python's scientific computing and data analysis libraries.
 
 ### Contents
 
@@ -69,7 +71,7 @@ M04T03 | Pandas | | |
 
 ## [Module 05 - Best Practices](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m05-best-practices/)
 
-This module will cover some of the best practices for python.
+This module will cover some of the best practices for Python.
 
 ### Contents
 
@@ -83,7 +85,7 @@ M05T05 | Parallelism | | |
 
 ## [Module 06 - Machine Learning](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m06-machine-learning/)
 
-This module will cover the basics of machine learning algorithms and their implementation using Scikit-learn.
+This module will cover the basics of machine learning algorithms and their implementation.
 
 ### Contents
 
@@ -99,7 +101,7 @@ M06T07 | Quantum Machine Learning | | |
 
 ## [Module 07 - Deep Learning](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m07-deep-learning/)
 
-This module covers artificial neural networks and their applications in physical scenarios using TensorFlow.
+This module will cover artificial neural networks and their applications in physical scenarios using the `tensorflow` package.
 
 ### Contents
 
@@ -120,14 +122,14 @@ M07T08 | Quantum Generative Adversarial Networks | | |
 
 ## [Module 08 - Quantum Computing](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/)
 
-This module will cover applications of quantum mechanics in computing using Qiskit.
+This module covers the application of quantum mechanics in computation and cryptography.
 
 ### Contents
 
 Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M08T01 | CBits to QBits | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/m08t01-cbits-to-qbits.md) | |
-M08T02 | The Qiskit SDK | | |
+M08T02 | The Qiskit SDK | [link](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/m08t02-the-qiskit-sdk.md) | |
 
 ### Key Takeaways
 
