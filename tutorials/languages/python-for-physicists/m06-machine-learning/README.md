@@ -1,4 +1,4 @@
-# Machine Learning
+# Module 06 - Machine Learning
 
 > Coming soon...
 

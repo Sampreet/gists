@@ -1,4 +1,4 @@
-# Fundamentals of Python
+# Module 02 - Fundamentals of Python
 
 > Coming soon...
 

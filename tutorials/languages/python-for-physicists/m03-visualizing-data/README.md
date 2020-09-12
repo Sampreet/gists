@@ -1,4 +1,4 @@
-# Visualizing Data
+# Module 03 - Visualizing Data
 
 > Coming soon...
 

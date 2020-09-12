@@ -1,6 +1,8 @@
-# Python on VSCode
+# M01T05 - Python on VSCode
 
 > 'Cause running multi-language scripts couldn't be easier elsewhere!
+
+[&#8592; \[Previous\] M01T04 - Jupyter Notebooks](./m01t04-jupyter-notebooks.md)
 
 ## Installing Visual Studio Code
 

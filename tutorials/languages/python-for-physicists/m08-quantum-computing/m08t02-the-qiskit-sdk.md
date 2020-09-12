@@ -1,4 +1,4 @@
-# The Qiskit SDK
+# M08T02 - The Qiskit SDK
 
 ![Conda](https://img.shields.io/pypi/v/qiskit?label=version&style=for-the-badge)
 ![Conda](https://img.shields.io/pypi/dm/qiskit?style=for-the-badge)
@@ -38,13 +38,13 @@ Update the environment to download the latest packages:
 conda update --all
 ```
 
-Since , update the Python package manager `pip` to its latest version:
+Since `qiskit` is being maintained by the default Python package manager `pip` and does not yet have a `conda` source, we need to update `pip` to its latest version before installing `qiskit`. This can be done by executing:
 
 ```bash
 pip install --update pip
 ```
 
-***Note: `pip` does not check for dependency clashes with previously installed packages, hence make sure you create a new environment for `qiskit` with a compatible version of Python.*** 
+***Note: `pip` does not check for dependency clashes with previously installed packages; hence make sure you create a new environment for `qiskit` with a compatible version of Python.*** 
 
 ### Installation and Validation
 

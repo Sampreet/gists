@@ -1,4 +1,4 @@
-# Setting Up Python
+# M01T01 - Setting Up Python
 
 > A water boa for a python!
 
@@ -112,3 +112,5 @@ conda remove --name py38
 ```
 
 ***[Conda's official cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) collects a comprehensive list of commands available via the package.***
+
+[\[Next\] M01T02 - The Python Interpreter &#8594;](./m01t02-the-python-interpreter.md)

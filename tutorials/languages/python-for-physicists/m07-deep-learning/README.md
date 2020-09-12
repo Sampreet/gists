@@ -1,4 +1,4 @@
-# Deep Learning
+# Module 07 - Deep Learning
 
 > Coming soon...
 

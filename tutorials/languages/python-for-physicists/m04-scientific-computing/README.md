@@ -1,4 +1,4 @@
-# Scientific Computing
+# Module 04 - Scientific Computing
 
 > Coming soon...
 

@@ -1,6 +1,8 @@
-# The Python Interpreter
+# M01T02 - The Python Interpreter
 
-> For the love of the *Matrix* feeling!
+> One for the Terminal!
+
+[&#8592; \[Previous\] M01T01 - Setting Up Python](./m01t01-setting-up-python.md)
 
 ## Using the Interactive Mode
 
@@ -12,3 +14,5 @@ Python 3.7.6 | packaged by conda-forge | (default, Mar 23 2020, 22:22:21) [MSC v
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+
+[\[Next\] M01T03 - The Spyder IDE &#8594;](./m01t03-the-spyder-ide.md)
