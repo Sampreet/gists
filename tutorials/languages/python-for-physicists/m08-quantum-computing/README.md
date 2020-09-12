@@ -1,6 +1,8 @@
 # Quantum Computing
 
-> Towards a new era!
+> Towards a new dawn!
+
+[&#8592; \[Previous\] Module 07 - Deep Learning](../m07-deep-learning/)
 
 ## Prerequisites
 
@@ -19,4 +21,4 @@ The postulates of quantum mechanics like
 
 ### [CBits to QBits](./m08t01-cbits-to-qbits.md)
 
-### [The Qiskit SDK](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/m08t02-the-qiskit-sdk.md)
+### [The Qiskit SDK](./m08t02-the-qiskit-sdk.md)

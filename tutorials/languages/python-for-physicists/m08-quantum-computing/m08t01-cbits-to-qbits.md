@@ -56,3 +56,4 @@ This gives us the condition for separability:
 
 ![Separability Condition](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/images/m08t01-separability-condition.png)
 
+[\[Next\] M08T02 - The Qiskit SDK &#8594;](./m08t02-the-qiskit-sdk.md)

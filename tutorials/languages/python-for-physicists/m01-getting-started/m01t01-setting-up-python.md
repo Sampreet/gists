@@ -92,22 +92,23 @@ conda remove package
 
 It is useful to create individual virtual environments to run different versions of Python depending on the requirements of specific packages. 
 And the `conda` package provides an easy way to manage such virtual environments.
-To create a new environment (say, by the name `py37`) supporting a particular version of Python (say Python 3.7.x), use the following command:
+
+To create a new environment (say, by the name `py38`) supporting a particular version of Python (say Python 3.8.x), use the following command:
 
 ```
-conda create --name py37 python=3.7
+conda create --name py38 python=3.8
 ```
 
 Once the creation is complete, you can activate the environment by:
 
 ```
-conda activate py37
+conda activate py38
 ```
 
-To remove a created environment, use the following command:
+To remove the created environment, use the following command:
 
 ```
-conda remove --name py37
+conda remove --name py38
 ```
 
 ***[Conda's official cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) collects a comprehensive list of commands available via the package.***
