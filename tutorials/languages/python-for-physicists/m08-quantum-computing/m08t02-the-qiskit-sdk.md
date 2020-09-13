@@ -54,7 +54,7 @@ Finally, install the latest version of the `qiskit` package along with visualiat
 pip install qiskit[visualization]
 ```
 
-Once all packages and their dependencies are installed, check the version of `qiskit` installed via the following lines in the *Python interpreter*:
+Once all packages and their dependencies are installed, check the version of `qiskit` installed via the following lines in the *interactive mode*:
 
 ```python
 >> import qiskit

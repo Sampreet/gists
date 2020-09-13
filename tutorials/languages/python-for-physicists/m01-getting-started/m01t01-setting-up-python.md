@@ -23,10 +23,23 @@ Download the graphical installer (`.exe`/`.pkg`) for the latest version of Anaco
 
 ### On Linux
 
+Before installing Anaconda, make sure you have the Debian build tools installed by executing:
+
+```bash
+sudo apt-get install build-essential
+```
+
 Download the generic command line installer (`.sh`) for the latest version of Anaconda Python from the [individual product download page](https://www.anaconda.com/products/individual) and install it by running the following command in the terminal, replacing `path/to/file` with the complete path to the directory of the downloaded installer along with the file name:
 
 ```bash
 bash path/to/file.sh
+```
+
+Alternatively you can download the installer from the terminal using `curl` (cURL) using the following commands:
+
+```bash
+sudo apt-get install --upgrade curl
+curl -O https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
 ```
 
 ***Note: Linux usually comes with official Python distributions accessible through `python3` for version 3.x and `python` for version 2.x.*** 
@@ -108,7 +121,7 @@ conda activate py38
 To remove the created environment, use the following command:
 
 ```
-conda remove --name py38
+conda env remove --name py38
 ```
 
 ***[Conda's official cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) collects a comprehensive list of commands available via the package.***
