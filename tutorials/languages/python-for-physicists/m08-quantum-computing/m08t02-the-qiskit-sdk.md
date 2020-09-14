@@ -67,7 +67,7 @@ A one-liner *command line* alternative for the above step is:
 python -c "exec(\"import qiskit\nprint(qiskit.__version__)\")"
 ```
 
-## IBM Quantum Experience API Access Token
+## IBM Quantum API Access Token
 
 [*IBM Quantum Experience*](https://quantum-computing.ibm.com/) is a cloud-based platform to provide access to IBM's prototype quantum processors.
 It offers a variety of graphical tools to create as well as run quantum algorithms and experiments on their quantum computers. 
@@ -78,7 +78,7 @@ Once logged in, select on the *My Account* option available under the *Profile* 
 
 ![IBM QE My Account](./images/m08t02-ibm-qe-my-account.png)
 
-Copy the IBM API access token from the page available under the *Qiskit in local environment* section.
+Copy the IBM Quantum API access token from the page available under the *Qiskit in local environment* section.
 
 ![IBM QE API Token](./images/m08t02-ibm-qe-api-token.png)
 
@@ -91,6 +91,6 @@ To save the access token in Qiskit configuration file, type the following in the
 
 *The stored access token can be found inside the `$HOME/.qiskit/qiskitrc` file in Linux systems and in `%UserProfile%/.qiskit/qiskitrc` file in Windows systems.*
 
-## Testing the Installation
+## Executing in IBM Quantum
 
 ***The [qiskit-tutorials repository](https://github.com/Qiskit/qiskit-tutorials) contains an awesome collection of IPython notebooks.***
