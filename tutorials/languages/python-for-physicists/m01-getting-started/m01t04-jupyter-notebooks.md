@@ -3,7 +3,7 @@
 ![Conda](https://img.shields.io/conda/vn/conda-forge/jupyter?label=version&style=for-the-badge)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/jupyter?style=for-the-badge)
 
-> The largest pynet (*planet*) among them all!
+> A journey to the largest pynet (*planet*)!
 
 [&#8592; \[Previous\] M01T03 - The Spyder IDE](./m01t03-the-spyder-ide.md)
 

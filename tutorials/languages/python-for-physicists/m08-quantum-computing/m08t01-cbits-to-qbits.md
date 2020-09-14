@@ -33,11 +33,11 @@ Specifically, a qubit is a superposition of the orthonormal basis vectors of a t
 
 The *computational basis* is defined by eigenstates `0` and `1` and their superposition state:
 
-![Computational Basis](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/images/m08t01-computational-basis.png)
+![Computational Basis](./images/m08t01-computational-basis.png)
 
 The *standard basis* consists of the eigenstates `+` and `-` and their superposition state:
 
-![Standard Basis](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/images/m08t01-standard-basis.png)
+![Standard Basis](./images/m08t01-standard-basis.png)
 
 ### Entanglement
 
@@ -46,14 +46,14 @@ It is a highly non-classical behaviour and has multiple applications in quantum 
 
 The generic combined wave-function of two states can be written as:
 
-![Combined State (General)](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/images/m08t01-combined-state-general.png)
+![Combined State (General)](./images/m08t01-combined-state-general.png)
 
 If the participating states are separable, the combined wave-function can also be written as:
 
-![Combined State (Separable)](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/images/m08t01-combined-state-separable.png)
+![Combined State (Separable)](./images/m08t01-combined-state-separable.png)
 
 This gives us the condition for separability:
 
-![Separability Condition](https://github.com/Sampreet/gists/blob/master/tutorials/languages/python-for-physicists/m08-quantum-computing/images/m08t01-separability-condition.png)
+![Separability Condition](./images/m08t01-separability-condition.png)
 
 [\[Next\] M08T02 - The Qiskit SDK &#8594;](./m08t02-the-qiskit-sdk.md)

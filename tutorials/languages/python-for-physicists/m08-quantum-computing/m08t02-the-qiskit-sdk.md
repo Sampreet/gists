@@ -1,13 +1,13 @@
 # M08T02 - The Qiskit SDK
 
-![Conda](https://img.shields.io/pypi/v/qiskit?label=version&style=for-the-badge)
-![Conda](https://img.shields.io/pypi/dm/qiskit?style=for-the-badge)
+[![Conda](https://img.shields.io/pypi/v/qiskit?label=version&style=for-the-badge)]((https://qiskit.org/))
+[![Conda](https://img.shields.io/pypi/dm/qiskit?style=for-the-badge)](https://qiskit.org/)
 
 > Cloud Computing meets Quantum Computers!
 
 [&#8592; \[Previous\] M08T01 - CBits to QBits](./m08t01-cbits-to-qbits.md)
 
-*Qiskit* is an [open-source framework](http://doi.org/10.5281/zenodo.256211) written in Python which provides access to quantum computing platforms for learning, as well as facilitates research on quantum computation. 
+[*Qiskit*](https://qiskit.org/) is an [open-source framework](http://doi.org/10.5281/zenodo.256211) written in Python which provides access to quantum computing platforms for learning, as well as facilitates research on quantum computation. 
 Together with the [IBM Quantum Experience](https://quantum-computing.ibm.com/), it can be used to work with quantum computers at a level of circuits, pulses, and algorithms.
 
 ## Installing the SDK
@@ -67,7 +67,29 @@ A one-liner *command line* alternative for the above step is:
 python -c "exec(\"import qiskit\nprint(qiskit.__version__)\")"
 ```
 
-## The IBM Quantum Experience
+## IBM Quantum Experience API Access Token
+
+[*IBM Quantum Experience*](https://quantum-computing.ibm.com/) is a cloud-based platform to provide access to IBM's prototype quantum processors.
+It offers a variety of graphical tools to create as well as run quantum algorithms and experiments on their quantum computers. 
+
+Create or Log In to you personal IBM Quantum Experience account from the [official webpage](https://quantum-computing.ibm.com/).
+
+Once logged in, select on the *My Account* option available under the *Profile* icon situated at the top-right corner (or alternatively, visit the [*My Account* page](https://quantum-computing.ibm.com/account) in the same browsing environment). 
+
+![IBM QE My Account](./images/m08t02-ibm-qe-my-account.png)
+
+Copy the IBM API access token from the page available under the *Qiskit in local environment* section.
+
+![IBM QE API Token](./images/m08t02-ibm-qe-api-token.png)
+
+To save the access token in Qiskit configuration file, type the following in the *interactive mode*, replacing `api_access_token` by the copied access token:
+
+```python
+>> from qiskit import IBMQ
+>> IBMQ.save_account(api_access_token)
+```
+
+*The stored access token can be found inside the `$HOME/.qiskit/qiskitrc` file in Linux systems and in `%UserProfile%/.qiskit/qiskitrc` file in Windows systems.*
 
 ## Testing the Installation
 
