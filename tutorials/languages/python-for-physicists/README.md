@@ -117,5 +117,5 @@ M08T02 | The Qiskit SDK | [link](./m08-quantum-computing/m08t02-the-qiskit-sdk.m
 
 ### Key Takeaways
 
-* Understanding and implementing quantum logic.
+* Executing quantum circuits on IBM's prototype quantum computers.
 
