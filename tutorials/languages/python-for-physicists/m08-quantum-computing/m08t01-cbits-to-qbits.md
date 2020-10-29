@@ -56,4 +56,4 @@ This gives us the condition for separability:
 
 ![Separability Condition](./images/m08t01-separability-condition.png)
 
-[\[Next\] M08T02 - The Qiskit SDK &#8594;](./m08t02-the-qiskit-sdk.md)
+[\[Next\] M08T02 - Circuits and Gates &#8594;](./m08t02-circuits-and-gates.md)

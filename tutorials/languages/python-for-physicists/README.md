@@ -60,6 +60,7 @@ Topic ID | Topic Name | Tutorial | Notebook |
 M04T01 | Numpy | | |
 M04T02 | SciPy | | |
 M04T03 | Pandas | | |
+M04T04 | SymPy | | |
 
 ## [Module 05 - Best Practices](./m05-best-practices/)
 
@@ -113,7 +114,10 @@ M07T08 | Quantum Generative Adversarial Networks | | |
 Topic ID | Topic Name | Tutorial | Notebook | 
 --- | --- | --- | --- |
 M08T01 | CBits to QBits | [link](./m08-quantum-computing/m08t01-cbits-to-qbits.md) | |
-M08T02 | The Qiskit SDK | [link](./m08-quantum-computing/m08t02-the-qiskit-sdk.md) | [link](./m08-quantum-computing/m08t02-the-qiskit-sdk.ipynb) |
+M08T02 | Circuits and Gates | | |
+M08T03 | Measurements | | |
+M08T04 | The Qiskit SDK | [link](./m08-quantum-computing/m08t04-the-qiskit-sdk.md) | [link](./m08-quantum-computing/m08t04-the-qiskit-sdk.ipynb) |
+M08T05 | Algorithms | | |
 
 ### Key Takeaways
 

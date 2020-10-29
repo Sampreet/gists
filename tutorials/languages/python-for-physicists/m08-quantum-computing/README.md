@@ -19,4 +19,10 @@ You must have Python [set up](../m01-getting-started/), with a knowledge of its 
 
 ### [M08T01 - CBits to QBits](./m08t01-cbits-to-qbits.md)
 
-### [M08T02 - The Qiskit SDK](./m08t02-the-qiskit-sdk.md)
+### [M08T02 - Circuits and Gates](./m08t02-circuits-and-gates.md)
+
+### [M08T03 - Measurements](./m08t03-measurements.md)
+
+### [M08T04 - The Qiskit SDK](./m08t04-the-qiskit-sdk.md)
+
+### [M08T05 - Algorithms](./m08t05-algorithms.md)
