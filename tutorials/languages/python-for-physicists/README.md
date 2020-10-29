@@ -121,5 +121,6 @@ M08T05 | Algorithms | | |
 
 ### Key Takeaways
 
+* Building quantum circuits and implementing quantum algorithms.
 * Executing quantum circuits on IBM's prototype quantum computers.
 

@@ -1,4 +1,4 @@
-# M08T02 - The Qiskit SDK
+# M08T04 - The Qiskit SDK
 
 [![Conda](https://img.shields.io/pypi/v/qiskit?label=version&style=for-the-badge)]((https://qiskit.org/))
 [![Conda](https://img.shields.io/pypi/dm/qiskit?style=for-the-badge)](https://qiskit.org/)
