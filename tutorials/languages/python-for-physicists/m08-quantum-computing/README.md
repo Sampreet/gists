@@ -23,6 +23,8 @@ You must have Python [set up](../m01-getting-started/), with a knowledge of its 
 
 ### [M08T03 - Measurements](./m08t03-measurements.md)
 
-### [M08T04 - The Qiskit SDK](./m08t04-the-qiskit-sdk.md)
+### [M08T04 - Algorithms](./m08t04-algorithms.md)
 
-### [M08T05 - Algorithms](./m08t05-algorithms.md)
+### [M08T05 - The Qiskit SDK](./m08t05-the-qiskit-sdk.md)
+
+### [M08T06 - Grover's Algorithm](./m08t06-algorithm-grover.md)

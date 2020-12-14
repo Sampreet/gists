@@ -1,13 +1,13 @@
-# M08T04 - The Qiskit SDK
+# M08T05 - The Qiskit SDK
 
 [![Conda](https://img.shields.io/pypi/v/qiskit?label=version&style=for-the-badge)]((https://qiskit.org/))
 [![Conda](https://img.shields.io/pypi/dm/qiskit?style=for-the-badge)](https://qiskit.org/)
 
 > Cloud Computing meets Quantum Computers!
 
-[&#8592; \[Previous\] M08T03 - Measurements](./m08t03-measurements.md)
+[&#8592; \[Previous\] M08T04 - Algorithms](./m08t04-algorithms.md)
 
-[Corresponding Notebook](./m08t04-the-qiskit-sdk.ipynb)
+[Corresponding Notebook](./m08t05-the-qiskit-sdk.ipynb)
 
 [*Qiskit*](https://qiskit.org/) is an [open-source framework](http://doi.org/10.5281/zenodo.256211) written in Python which provides access to quantum computing platforms for learning, as well as facilitates research on quantum computation. 
 Together with the [IBM Quantum Experience](https://quantum-computing.ibm.com/), it can be used to work with quantum computers at a level of circuits, pulses, and algorithms.
@@ -163,8 +163,8 @@ Upon completion, this displays an output of the form:
 Job Status: job has successfully run
 ```
 
-[The Qiskit SDK notebook](./m08t04-the-qiskit-sdk.ipynb) implements all the above functions stepwise, displaying the results of both the classical simulation and the quantum execution.
+[The Qiskit SDK notebook](./m08t05-the-qiskit-sdk.ipynb) implements all the above functions stepwise, displaying the results of both the classical simulation and the quantum execution.
 
 *Also, the [qiskit-tutorials repository](https://github.com/Qiskit/qiskit-tutorials) contains an awesome collection of IPython notebooks.*
 
-[\[Next\] M08T05 - Algorithms &#8594;](./m08t05-algorithms.md)
+[\[Next\] M08T06 - Grover's Algorithm &#8594;](./m08t06-algorithm-grover.md)

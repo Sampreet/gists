@@ -116,8 +116,9 @@ Topic ID | Topic Name | Tutorial | Notebook |
 M08T01 | CBits to QBits | [link](./m08-quantum-computing/m08t01-cbits-to-qbits.md) | |
 M08T02 | Circuits and Gates | | |
 M08T03 | Measurements | | |
-M08T04 | The Qiskit SDK | [link](./m08-quantum-computing/m08t04-the-qiskit-sdk.md) | [link](./m08-quantum-computing/m08t04-the-qiskit-sdk.ipynb) |
-M08T05 | Algorithms | | |
+M08T04 | Algorithms | | |
+M08T05 | The Qiskit SDK | [link](./m08-quantum-computing/m08t05-the-qiskit-sdk.md) | [link](./m08-quantum-computing/m08t05-the-qiskit-sdk.ipynb) |
+M08T06 | Grover's Algorithm | | [link](./m08-quantum-computing/m08t06-algorithm-grover.ipynb) |
 
 ### Key Takeaways
 
