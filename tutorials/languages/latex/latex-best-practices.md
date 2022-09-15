@@ -9,7 +9,9 @@ Every publication house has its own document class and require the manuscript to
 Some of these document classes require additional style files and the TeX distribution needs to be configured accordingly.
 The distribution might also download some additional packages to fulfil the requirements of the document class.
 
-***Note:*** Although most journals accept manuscripts formatted in the default `article` document class (see [Article Template for $\LaTeX$](../../../snippets/languages/latex/latex-article-template.md)), following the journal's style guide speeds up the correspondence process.
+***Note:*** Although most journals accept manuscripts formatted in the default `article` document class, following the journal's style guide speeds up the correspondence process.
+
+*A $\LaTeX$ template using the `article` class can be found in the [Article Template for LaTeX](../../../snippets/languages/latex/latex-article-template.md) snippet.*
 
 Along with the style guide for text, math, figures and tables, the manuscript templates containing the instructions for authors usually mention the packages and bibliography styles that can be used with for each document class.
 Some key points to keep in mind for the `\usepackage{}` command are:

@@ -38,12 +38,15 @@
 \bibliographystyle{plain}
 
 \begin{document}
+    % heading
     \title{Title}
     \author{Name}
     \maketitle
 
+    % contents
     \tableofcontents
     
+    % sections, equations, figures and tables
     \section{System}
         \label{sec:system}
         Motivation for the system...
@@ -87,6 +90,9 @@
                 \caption{Time evolution.}
                 \label{fig:system_dynamics}
             \end{figure}
+
+    % add bibliography
+    \bibliography{references}
     
 \end{document}
 ```
