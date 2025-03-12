@@ -1,6 +1,6 @@
 # Article Template for $\LaTeX$
 
-## General
+## Barebones
 
 ```latex
 \documentclass[a4paper, 11pt]{article}
@@ -15,9 +15,13 @@
 % % uncomment to add appendix to table of contents
 % \usepackage[title, titletoc]{appendix}
 % math fonts
-\usepackage{amssymb, amsmath, amsfonts}
+\usepackage{amsmath}
+% % uncomment for more fonts and symbols
+% \usepackage{amsfonts, amssymb}
 % % uncomment to support underlining and striking out
 % \usepackage{ulem}
+% % uncomment for author affiliation
+% \usepackage{authblk}
 
 % % uncomment block to add headers and footers
 % \usepackage{fancyhdr}
@@ -41,6 +45,9 @@
     % heading
     \title{Title}
     \author{Name}
+    % % uncomment for affiliation along with the authblk package 
+    % \affil{Affiliation}
+    \date{\today}
     \maketitle
 
     % contents

@@ -11,7 +11,9 @@ The distribution might also download some additional packages to fulfil the requ
 
 ***Note:*** Although most journals accept manuscripts formatted in the default `article` document class, following the journal's style guide speeds up the correspondence process.
 
-*A $\LaTeX$ template using the `article` class can be found in the [Article Template for LaTeX](../../../snippets/languages/latex/latex-article-template.md) snippet.*
+*A* $\LaTeX$ *template using the `article` class can be found in the [Article Template for LaTeX](../../../snippets/languages/latex/latex-article-template.md) snippet.*
+
+***Note:*** A comprehensive list of documented classes can be found in the [CTAN Archive](https://ctan.org/topic/class).
 
 Along with the style guide for text, math, figures and tables, the manuscript templates containing the instructions for authors usually mention the packages and bibliography styles that can be used with for each document class.
 Some key points to keep in mind for the `\usepackage{}` command are:
@@ -19,7 +21,7 @@ Some key points to keep in mind for the `\usepackage{}` command are:
     For example, the `iopart` class does not support the `amsmath` package and one need to use the `iopams` package instead.
 *   Only the ***necessary packages*** should be used in order to avoid conflicts between commands.
     Keeping the number of packages used to minimum also reduces the compilation times.
-    Usually, the packages `garphicx` and `amsmath` (optionally with `cite`, `color` and `hyperref`) suffices the requirements for most manuscripts in Physics.
+    Usually, the packages `garphicx` and `amsmath` (optionally with `cite`, `hyperref` and `color`) suffices the requirements for most manuscripts in Physics.
 
 ***Note:*** Although at times, the manuscript might compile with an incompatible package, but a small conflict may trigger a large number of compilation errors which can sometimes be very confusing to debug.
 
